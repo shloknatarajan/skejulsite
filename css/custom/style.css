@@ -502,7 +502,7 @@ body p {
 }
 
 nav.navbar-collapse {
-	z-index: 3
+	z-index: 3;
 }
 
 /*for dropdown*/
@@ -12280,3 +12280,46 @@ width: 30px;
 }
 
 /* 'montserratlight', sans-serif*/
+
+
+.fa-navicon {
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+	#herocontainer {
+		width: 85vw;
+		height: 30vh;
+	}
+}
+
+@media screen and (max-widtH: 768px) {
+	.logo img {
+		max-height: 200%;
+		height: 20vh;
+	}
+}
+
+.heroArea {
+	height: 100vh;
+}
+
+.homeArea {
+	padding-top: 30vh !important;
+}
+
+@media screen and (max-width: 768px) {
+	.homeArea {
+		padding-top: 0vh !important;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#secondteamrow {
+		margin-top: 3vh;
+	}
+	
+	#secondteamrowmember {
+		margin-left: 12.5%;
+	}
+}
