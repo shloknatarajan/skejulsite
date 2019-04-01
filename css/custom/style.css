@@ -12393,15 +12393,10 @@ width: 30px;
 	overflow: hidden;
 }
 
-/* Removes video from mobile devices */
 .video-container {
 	display: none;
 }
-@media screen and (max-width: 992px) {
-	#main-video {
-		display: none;
-	}
-}
+
 
 @media screen and (min-width: 992px) {
     
@@ -12416,6 +12411,7 @@ width: 30px;
     }
     
     video {
+        width: 100%;
         position: absolute;
         z-index: -2;
         display: block !important;
